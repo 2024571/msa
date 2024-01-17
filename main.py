@@ -14,7 +14,7 @@ items = []
 
 @app.get("/")
 def root():
-    return {"Hello": "World"}
+    return {"Hi": "This is Mohammed Ansari CWS2"}
 
 
 @app.post("/items")
